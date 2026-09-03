@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek jha | Portfolio</title>
+    <link rel="stylesheet" href="./first.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">
+            <a href="#">AJ</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Abhishek jha</h1>
+            <h2 class="hero-title">
+                I'm a <span class="typed-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-description">
+                I build beautiful, responsive and user-friendly web applications.
+                Passionate about creating amazing digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/abhishek---jha/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="./aj_image.png" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="w-full flex justify-center items-center">
+                        <dotlottie-player
+                            src="https://lottie.host/b3a2551f-f0e7-47a9-9f13-741d268662bb/MQ5vTDu8tG.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 100%; height: 400px;"
+                            loop
+                            autoplay>
+                        </dotlottie-player>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>
+                        I'm a passionate web developer with 2 years of experience in
+                        building modern web applications. I love turning ideas into
+                        reality through clean and efficient code.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy reading.
+                        I'm always looking for new challenges and opportunities to grow.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Abhishek kumar jha</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">Jha83583@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Darbhanga, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Available:</span>
+                            <span class="info-value">Freelance / Full-time</span>
+                        </div>
+                    </div>
+                    <a href="./Abhishek_resume.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-content">
+                
+                <!-- Technical Skills -->
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bars">
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTML & CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="90"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="80"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>React.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="75"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="70"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" data-width="75"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skills-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./Ai Interview image.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ai Interview Simulator</h3>
+                        <p>An AI-powered mock interview platform that conducts interviews, evaluates responses, and provides personalized feedback to improve interview performance.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>SQLite</span>
+                            <span>JSON</span>
+                            <span>Speech Recognition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="./Website under construction.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Under Construction</h3>
+                        <p>🚧 Currently under development — more updates coming soon.</p>
+                        <div class="project-tags">
+                            <span>x</span>
+                            <!-- <span>Node.js</span>
+                            <span>MongoDB</span> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                
+                <div class="contact-info">
+                    <h3>Let's Talk!</h3>
+                    <p>Have a project in mind? Let's work together to create something amazing.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>Jha83583@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7033319636</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Darbhanga, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Abhishek jha. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abhishek---jha/"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./first.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+</body>
+</html>
